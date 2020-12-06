@@ -5,9 +5,9 @@ namespace XUnitTestProject1
 {
     public class UnitTest1
     {
-        private static string _newsalt = "here goes the salt";
-        private static string _password = "here goes the password";
-        private static string _password2 = "this is another password";
+        private static string _newsalt = "the salt";
+        private static string _password = "the password";
+        private static string _password2 = "another password";
         private static uint _modAdler32 = 65521;
         [Fact]
         private void TestGetHash()
